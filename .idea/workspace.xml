@@ -43,6 +43,15 @@
     <configuration name="基数排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/基数排序.js" working-dir="$PROJECT_DIR$/排序算法">
       <method v="2" />
     </configuration>
+    <configuration name="删除链表的节点.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/删除链表的节点.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="第一个只出现一次的字符.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/第一个只出现一次的字符.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
     <configuration name="剪绳子一.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="剪绳子一.js" working-dir="$PROJECT_DIR$/Offer">
       <method v="2" />
     </configuration>
@@ -62,15 +71,6 @@
       <method v="2" />
     </configuration>
     <configuration name="调整数组顺序使奇数位于偶数前面.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/调整数组顺序使奇数位于偶数前面.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="删除链表的节点.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/删除链表的节点.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="第一个只出现一次的字符.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/第一个只出现一次的字符.js" working-dir="$PROJECT_DIR$/Offer">
       <method v="2" />
     </configuration>
     <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
@@ -110,6 +110,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="298" key="FileChooserDialogImpl" timestamp="1626954076021">
