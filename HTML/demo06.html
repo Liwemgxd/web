@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>数组</title>
+    <style type="text/css"></style>
+    <script>
+        arr = [1,2,3];
+        document.write(arr);
+        arr[5] = 6;
+        document.write(arr);
+        document.write("<br>")
+        document.write(arr[8]);
+        if (arr[10] == null){
+            document.write("<br>我是null<br>");
+        }
+        document.write(arr.length);
+        for (let i = 0; i < arr.length; i++) {
+            document.write(arr[i]+'<br>');
+        }
+        temp = arr.shift();
+        document.write(temp)
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

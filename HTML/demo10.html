@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css"></style>
+    <script>
+<!--       创建和插入元素-->
+        window.onload = function (){
+            var oBtn = document.getElementById("btn");
+            oBtn.onclick = function (){
+                var oUl = document.getElementById("list");
+                var oTxt = document.getElementById("txt");
+                var textNode = document.createTextNode(oTxt.value);
+                var oLi = document.createElement("li");
+                oLi.appendChild(textNode);
+                //oUl.appendChild(oLi);
+                //在指定子元素前插入
+                oChild = oUl.getElementsByTagName("li");
+                oUl.insertBefore(oLi, oChild[1])
+            }
+        }
+    </script>
+</head>
+<body>
+    <ul id="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+    <input id="txt" type="text">
+    <input id="btn" type="button" value="插入">
+</body>
+</html>

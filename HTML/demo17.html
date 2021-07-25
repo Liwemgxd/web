@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .main{color:red;font-weight:bold;}
+    </style>
+    <script>
+        window.onload = function ()
+        {
+            var oP = document.getElementsByTagName("p");
+            oP[0].onclick = function ()
+            {
+                oP[0].removeAttribute("class");
+            };
+        }
+    </script>
+</head>
+<body>
+    <p class="main">你偷走了我的影子，无论你在哪里，我都会一直想着你。</p>
+</body>
+</html>

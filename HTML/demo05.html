@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css"></style>
+    <script>
+        function isLeapYear(year){
+            if(year%4==0 && year%100!=0 || year%400==0){
+                return year + '是闰年'
+            }
+            else {
+                return year + '不是闰年'
+            }
+        }
+        document.write(isLeapYear(2020))
+        function fn()
+        {
+            var a;
+            document.write(a);
+        }
+        fn();
+        var a = 3, b = 5;
+        function swap() {
+            var tmp;
+            tmp = a;
+            a = b;
+            b = tmp;
+        }
+        swap();
+        document.write("a=" + a + ",b=" + b);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

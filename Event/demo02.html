@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标移入和移除 按下和松开</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oP = document.getElementById("content");
+            oP.onmouseover = function (){
+                this.style.color = "red";
+            }
+            oP.onmouseout = function (){
+                this.style.color = "blue"
+            }
+
+            //按下和松开
+            var oTitle = document.getElementById("title");
+            var oBtn = document.getElementById("btn");
+            oBtn.onmousedown = function (){
+                oTitle.style.color = "red";
+            }
+            oBtn.onmouseup = function (){
+                oTitle.style.color = "blue";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p id="content">绿叶学习网</p>
+    <h1 id="title">绿叶学习网</h1>
+    <hr />
+    <input id="btn" type="button" value="button" />
+</body>
+</html>

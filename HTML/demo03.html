@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css"></style>
+    <script>
+        //找到1000以内的水仙花数
+        var str = '数据：';
+        for (var i=10; i<=1000; i++){
+            var temp = i;
+            var sum = 0;
+            while (temp > 0){
+               var c = temp%10;
+               temp = parseInt(temp/10);
+               sum += c*c*c;
+            }
+            // document.write("i= "+i + "<br>");
+            // document.write("sum=" +sum + "<br>")
+            if(sum==i){
+                str = str + i + '、';
+            }
+        }
+        document.write(str)
+        document.write("over")
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

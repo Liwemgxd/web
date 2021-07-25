@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css"></style>
+    <script>
+        var twoSum = function(nums, target) {
+            let map = new Map();
+            for(let i = 0, len = nums.length; i < len; i++){
+                if(map.has(target - nums[i])){
+                    return [map.get(target - nums[i]), i];
+                }else{
+                    map.set(nums[i], i);
+                }
+            }
+            return [];
+        };
+        nums = [2,7,11,15];
+        target = 9;
+        document.write(twoSum(nums, target))
+    </script>
+</head>
+<body>
+
+</body>
+</html>

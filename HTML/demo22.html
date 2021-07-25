@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>innerHTML\innerText</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oTxt1 = document.getElementById("txt1");
+            var oTxt2 = document.getElementById("txt2");
+            var oP = document.getElementById("content");
+            oTxt1.value = oP.innerHTML;
+            oTxt2.value = oP.innerText;
+            oTxt1.style.width = "1000px";
+        }
+    </script>
+</head>
+<body>
+    <p id="content"><strong style="color:hotpink;">绿叶学习网</strong></p>
+    innerHTML是：<input id="txt1" type="text"><br />
+    innerText是：<input id="txt2" type="text">
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #content{color: red}
+    </style>
+    <script>
+        window.onload = function (){
+            var oTxt = document.getElementById("txt");
+            var oDiv = document.getElementById("content");
+            var myregex = /^[0-9]*$/;
+            oTxt.onkeyup = function (){
+                if (myregex.test(oTxt.value)){
+                    oDiv.innerText = "输入正确"
+                }else {
+                    oDiv.innerText = "必须输入数字"
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="txt" type="text">
+    <div id="content"></div>
+</body>
+</html>

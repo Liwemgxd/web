@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>onchange 下拉列表</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oSelect = document.getElementById("list");
+            oSelect.onchange = function (){
+                var index = this.selectedIndex;
+                var link = this.options[index].value;
+                window.open(link);
+            }
+        }
+    </script>
+</head>
+<body>
+    <select id="list">
+        <option value="http://wwww.baidu.com">百度</option>
+        <option value="http://www.sina.com.cn">新浪</option>
+        <option value="http://www.qq.com">腾讯</option>
+        <option value="http://www.sohu.com">搜狐</option>
+    </select>
+</body>
+</html>

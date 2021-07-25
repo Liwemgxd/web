@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>onchange全选</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oSelectAll = document.getElementById("selectAll");
+            var oFruit = document.getElementsByName("fruit");
+            oSelectAll.onchange = function (){
+                if (this.checked){
+                    for (let i = 0; i < oFruit.length; i++) {
+                        oFruit[i].checked = true;
+                    }
+                }else {
+                    for (let i = 0; i < oFruit.length; i++) {
+                        oFruit[i].checked = false;
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p><label><input id="selectAll" type="checkbox"/>全选/反选：</label></p>
+        <label><input type="checkbox" name="fruit" value="苹果" />苹果</label>
+        <label><input type="checkbox" name="fruit" value="香蕉" />香蕉</label>
+        <label><input type="checkbox" name="fruit" value="西瓜" />西瓜</label>
+    </div>
+</body>
+</html>

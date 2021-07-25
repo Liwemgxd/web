@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>onselect</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oTxt1 = document.getElementById("txt1");
+            var oTxt2 = document.getElementById("txt2");
+            oTxt1.onselect = function (){
+                alert("选中了单行文本框内容");
+            }
+            oTxt2.onclick = function (){
+                this.select();
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="txt1" value="hello world"><br>
+    <textarea id="txt2" cols="20" rows="5">哈哈哈哈哈哈哈</textarea>
+</body>
+</html>

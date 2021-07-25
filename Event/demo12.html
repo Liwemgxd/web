@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>事件监听器</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oBtn = document.getElementById("btn");
+            oBtn.addEventListener("click", function (){alert("one")}, false)
+            oBtn.addEventListener("click", function (){alert("two")}, false)
+            oBtn.addEventListener("click", function (){alert("three")}, false)
+        }
+    </script>
+</head>
+<body>
+    <input id="btn" type="button" value="按钮"/>
+</body>
+</html>

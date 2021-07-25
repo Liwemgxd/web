@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>confirm</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function ()
+        {
+            var oBtn = document.getElementById("btn");
+            oBtn.onclick = function ()
+            {
+                if (confirm("确定要跳转到绿叶首页吗？")) {
+                    window.location.href = "http://www.lvyestudy.com";
+                }else{
+                    document.write("你取消了跳转");
+                }
+            };
+        }
+    </script>
+</head>
+<body>
+    <input id="btn" type="button" value="回到首页"/>
+</body>
+</html>

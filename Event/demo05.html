@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>onfocus and onblur</title>
+    <style type="text/css">
+        #search{color: #bbbbbb;}
+    </style>
+    <script>
+        window.onload = function (){
+            var oSearch = document.getElementById("search");
+            oSearch.focus();
+            oSearch.onfocus = function (){
+                if (this.value == "百度一下你就知道"){
+                    this.value = ""
+                }
+            }
+            oSearch.onblur = function (){
+                if (this.value == ""){
+                    this.value = "百度一下你就知道"
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="search" type="text" value="百度一下你就知道">
+    <input type="button" value="搜索">
+</body>
+</html>

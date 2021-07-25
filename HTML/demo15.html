@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>获取复选框的值</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function ()
+        {
+            var oBtn = document.getElementById("btn");
+            var oFruit = document.getElementsByName("fruit");
+            var str = "";
+            oBtn.onclick = function ()
+            {
+                for(var i=0;i<oFruit.length;i++)
+                {
+                    if(oFruit[i].checked)
+                    {
+                        str += oFruit[i].value;
+                    }
+                }
+                alert(str);
+            };
+        }
+    </script>
+</head>
+<body>
+<div>
+    <label><input type="checkbox" name="fruit" value="苹果" />苹果</label>
+    <label><input type="checkbox" name="fruit" value="香蕉" />香蕉</label>
+    <label><input type="checkbox" name="fruit" value="西瓜" />西瓜</label>
+</div>
+<input id="btn" type="button" value="获取" />
+</body>
+</html>

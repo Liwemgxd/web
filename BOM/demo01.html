@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>新窗口</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oBtn = document.getElementById("btn");
+            oBtn.onclick = function (){
+                var newpage = window.open();
+                newpage.document.body.innerHTML = "<textarea rows='10' cols='100'>";
+                newpage.document.body.style.backgroundColor = "lightskyblue";
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="btn" type="button" value="newPage">
+</body>
+</html>

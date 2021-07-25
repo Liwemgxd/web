@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>练习题</title>
+    <style type="text/css">
+        #circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            border: 1px solid gray;
+            line-height: 100px;
+            margin: 100px auto;
+            text-align:center;
+            background-color: #bbbbbb;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        window.onload = function (){
+            var oBtn = document.createElement("input");
+            oBtn.id = "btn";
+            oBtn.type = "button";
+            oBtn.value = "按钮";
+            document.body.appendChild(oBtn);
+            //document.body.innerHTML = "<input id='btn' type='button' value='按钮'>"
+        }
+    </script>
+</head>
+<body>
+    <label for="Name">Number:</label>
+    <input type="text" name="Name" id="Name">
+    <div>
+        <div id="circle">可点击区域</div>
+    </div>
+    <script>
+        var oCircle = document.getElementById('circle');
+        oCircle.onclick = function (e){
+            e.preventDefault();
+            alert('yeap')
+        }
+        oCircle.addEventListener('click', function (e){
+            e.preventDefault()
+            alert('yes')
+        })
+    </script>
+</body>
+</html>

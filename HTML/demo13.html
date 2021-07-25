@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>属性操作</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oTxt = document.createElement("input");
+            oTxt.type = "text";
+            document.body.appendChild(oTxt);
+            var oBtn = document.createElement("input");
+            oBtn.type = "button";
+            oBtn.value = "提交";
+            document.body.appendChild(oBtn);
+            oBtn.onclick = function (){
+                alert(oTxt.value);
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

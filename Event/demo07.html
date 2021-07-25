@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>onchange</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oFruit = document.getElementsByName("fruit");
+            var oP = document.getElementById("content");
+            for (var i = 0; i < oFruit.length; i++) {
+                oFruit[i].onchange = function (){
+                    oP.innerText = this.value;
+                }
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <label><input type="radio" name="fruit" value="苹果" />苹果</label>
+        <label><input type="radio" name="fruit" value="香蕉" />香蕉</label>
+        <label><input type="radio" name="fruit" value="西瓜" />西瓜</label>
+    </div>
+    <p id="content"></p>
+    </body>
+</html>

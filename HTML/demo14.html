@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>获取单选框的值</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oBtn = document.getElementById("btn");
+            //var oDiv = document.getElementById("div");
+            var oFruit = document.getElementsByName("fruit");
+            oBtn.onclick = function (){
+                for (let i = 0; i < oFruit.length; i++) {
+                    if (oFruit[i].checked){
+                        alert(oFruit[i].value);
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="div">
+    <label><input type="radio" name="fruit" value="苹果" >苹果</label>
+    <label><input type="radio" name="fruit" value="香蕉" checked>香蕉</label>
+    <label><input type="radio" name="fruit" value="西瓜">西瓜</label>
+</div>
+<input type="button" id="btn" value="获取">
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        div{width:100px;height:100px;border:1px solid silver;}
+    </style>
+    <script>
+        window.onload = function ()
+        {
+            //获取元素
+            var oBtn = document.getElementsByTagName("input");
+            var oDiv = document.getElementsByTagName("div")[0];
+            //定义一个数组colors，存放6种颜色
+            var colors = ["red", "orange", "yellow", "green", "blue", "purple"];
+            //timer用于定时器
+            var timer = null;
+            //i用于计数
+            var i = 0;
+            //“开始”按钮
+            oBtn[0].onclick = function ()
+            {
+                //每隔1秒切换一次背景颜色
+                timer = setInterval(function () {
+                    oDiv.style.backgroundColor = colors[i];
+                    i++;
+                    i = i % colors.length;
+                }, 1000);
+            };
+            //“暂停”按钮
+            oBtn[1].onclick = function ()
+            {
+                clearInterval(timer);
+            };
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="开始"/>
+<input type="button" value="暂停"/>
+<div></div>
+</body>
+</html>

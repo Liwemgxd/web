@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>设置HTML属性值</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oBtn = document.getElementById("btn");
+            var oImg = document.getElementById("pic");
+            var flag = true;
+            oBtn.onclick = function (){
+                if (flag){
+                    oImg.src = "../img/2.jpg";
+                    flag = false;
+                }else {
+                    oImg.src = "../img/1.jpg";
+                    flag = true;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" id="btn" value="修改"><br>
+    <img src="../img/1.jpg" id="pic">
+</body>
+</html>

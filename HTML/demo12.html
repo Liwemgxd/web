@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css"></style>
+    <script>
+        //删除元素
+        window.onload = function (){
+            var oBtn = document.getElementById("btn");
+            oBtn.onclick = function (){
+                var oOl = document.getElementById("list");
+                oOl.removeChild(oOl.lastElementChild);
+            }
+        }
+    </script>
+</head>
+<body>
+    <ol id="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <input type="button" id="btn" value="删除">
+</body>
+</html>

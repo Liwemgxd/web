@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM遍历 子元素</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oBtn = document.getElementById("btn");
+            var oUl = document.getElementById("list");
+            oBtn.onclick = function (){
+                if (oUl.lastChild.nodeType == 3){
+                    oUl.removeChild(oUl.lastChild);
+                    oUl.removeChild(oUl.lastChild);
+                }else {
+                    oUl.removeChild(oUl.lastChild);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <ul id="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Vue.js</li>
+    </ul>
+    <input id="btn" type="button" value="删除" />
+</body>
+</html>

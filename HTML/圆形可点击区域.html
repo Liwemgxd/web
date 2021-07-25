@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title>实现圆形的可点击区域</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #000;
+        }
+        div{
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: red;
+            line-height: 100px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div>可点击区域</div>
+<script type="text/javascript">
+    window.onload = function(){
+        // 假设圆心为（100，100），半径r = 50
+        document.onclick = function(event){
+            var event = event || window.event;
+            var x0 = 100;
+            var y0 = 100;
+            var r = 50;
+            var x1 = event.clientX;
+            var y1 = event.clientY;
+            var dis = Math.sqrt((x1-x0)*(x1-x0) + (y1-y0)*(y1-y0));
+            if(dis <= r){
+                alert("Yeap~");
+            }else{
+                alert("Oh,no!");
+            }
+        }
+    }
+</script>
+</body>
+</html>

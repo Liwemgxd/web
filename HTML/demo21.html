@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM遍历 兄弟元素</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oBtn = document.getElementById("btn");
+            var oUl = document.getElementById("list");
+            oBtn.onclick = function (){
+                var preElement = oUl.children[2].previousElementSibling;
+                oUl.removeChild(preElement);
+            }
+        }
+    </script>
+</head>
+<body>
+    <ul id="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Vue.js</li>
+    </ul>
+    <input id="btn" type="button" value="删除" />
+</body>
+</html>

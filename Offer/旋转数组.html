@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css"></style>
+    <script>
+        var minArray = function(numbers) {
+            let high = numbers.length-1;
+            let low = 0;
+            while (low < high){
+                let pivot = low + Math.floor((high-low)/2);
+                if(numbers[pivot] < numbers[high]){
+                    high = pivot;
+                }else if(numbers[pivot] > numbers[high]){
+                    low = low + 1;
+                }else{
+                    high--;
+                }
+            }
+            return numbers[low];
+        };
+
+        console.log(minArray([1,3,5]))
+    </script>
+</head>
+<body>
+
+</body>
+</html>

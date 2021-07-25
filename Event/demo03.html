@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>键盘事件</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oText = document.getElementById("text");
+            var oSpan = document.getElementById("num");
+            oText.onkeyup = function (){
+                var str = oText.value;
+                oSpan.innerText = str.length;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="text">
+    <div>字符串长度为：<span id="num">0</span></div>
+</body>
+</html>

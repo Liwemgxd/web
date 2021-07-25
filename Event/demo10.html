@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>编辑事件oncopy</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            //防止被复制
+            document.body.oncopy = function (){
+                return false;
+            }
+            //禁止选取
+            document.body.onselectstart = function (){
+                return false;
+            }
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>不要用战术上的勤奋，来掩盖战略上的懒惰。</div>
+</body>
+</html>

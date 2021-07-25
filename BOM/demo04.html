@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>prompt</title>
+    <script>
+        window.onload = function ()
+        {
+            var oBtn = document.getElementById("btn");
+            oBtn.onclick = function ()
+            {
+                var name = prompt("请输入你的名字");
+                document.write("欢迎来到<strong>" + name + "</strong>");
+            };
+        }
+    </script>
+</head>
+<body>
+<input id="btn" type="button" value="按钮"/>
+</body>
+</html>

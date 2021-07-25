@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>event对象1</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oBtn = document.getElementById("btn");
+            oBtn.onclick = function (e){
+                alert(e.type);
+                alert(e.shiftKey);
+            }
+            document.onkeydown = function (e){
+                if (e.shiftKey || e.altKey || e.ctrlKey){
+                    alert("禁止使用这三个键");
+                }else {
+                    alert(e.keyCode);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" id="btn" value="button">
+</body>
+</html>

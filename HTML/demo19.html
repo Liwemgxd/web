@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM遍历 父元素</title>
+    <style type="text/css">
+        table{border-collapse: collapse}
+        table, tr, td{border: 1px solid gray}
+    </style>
+    <script>
+        window.onload = function (){
+            var oTd = document.getElementsByTagName("td");
+            for (let i = 0; i < oTd.length; i++) {
+                oTd[i].onclick = function (){
+                    var oParent = this.parentNode;
+                    oParent.style.color = "white";
+                    oParent.style.backgroundColor = "red";
+                }
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <table>
+        <caption>考试成绩表</caption>
+        <tr>
+            <td>小明</td>
+            <td>80</td>
+            <td>80</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>小红</td>
+            <td>90</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>小杰</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+    </table>
+</body>
+</html>

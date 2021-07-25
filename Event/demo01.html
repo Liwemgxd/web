@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        #btn
+        {
+            display: inline-block;
+            width: 80px;
+            height: 24px;
+            line-height: 24px;
+            font-family:微软雅黑;
+            font-size:15px;
+            text-align: center;
+            border-radius: 3px;
+            background-color: deepskyblue;
+            color: White;
+            cursor: pointer;
+        }
+        #btn:hover {background-color: dodgerblue;}
+    </style>
+    <script>
+        window.onload = function ()
+        {
+            var oDiv = document.getElementById("btn");
+            oDiv.onclick = function ()
+            {
+                alert("玩我么？");
+            };
+        };
+    </script>
+</head>
+<body>
+<div id="btn">调试代码</div>
+</body>
+</html>

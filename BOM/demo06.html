@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>setInterval</title>
+    <style type="text/css"></style>
+    <script>
+        window.onload = function (){
+            var oNum = document.getElementById("num");
+            var n = 5;
+            setInterval(cutDown,1000);
+            function cutDown(){
+                if (n>0){
+                    n--;
+                    oNum.innerText = n;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>倒计时：<span id="num">5</span></p>
+</body>
+</html>
