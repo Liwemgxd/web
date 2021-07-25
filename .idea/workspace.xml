@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b6e80a-1c30-4d6f-be83-8db4d4ce241f" name="Default Changelist" comment="" />
+    <list default="true" id="61b6e80a-1c30-4d6f-be83-8db4d4ce241f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/纯CSS实现三角箭头.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/纯CSS实现三角箭头.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +62,15 @@
     <configuration name="基数排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/基数排序.js" working-dir="$PROJECT_DIR$/排序算法">
       <method v="2" />
     </configuration>
+    <configuration name="正则表达式匹配.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/正则表达式匹配.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="调整数组顺序使奇数位于偶数前面.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/调整数组顺序使奇数位于偶数前面.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
     <configuration name="删除链表的节点.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/删除链表的节点.js" working-dir="$PROJECT_DIR$/Offer">
       <method v="2" />
     </configuration>
@@ -81,15 +93,6 @@
       <method v="2" />
     </configuration>
     <configuration name="二分法查找山峰数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/二分法查找山峰数组.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="正则表达式匹配.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/正则表达式匹配.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="调整数组顺序使奇数位于偶数前面.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/调整数组顺序使奇数位于偶数前面.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/test.js" working-dir="$PROJECT_DIR$/排序算法">
