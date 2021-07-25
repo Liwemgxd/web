@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b6e80a-1c30-4d6f-be83-8db4d4ce241f" name="Default Changelist" comment="" />
+    <list default="true" id="61b6e80a-1c30-4d6f-be83-8db4d4ce241f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CSS/纯CSS实现三角箭头.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/纯CSS实现三角箭头.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qYcBDKsjjfrV9T4VxuQPrYMYXl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,15 +31,25 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.test.js">
     <configuration name="基数排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/基数排序.js" working-dir="$PROJECT_DIR$/排序算法">
+      <method v="2" />
+    </configuration>
+    <configuration name="剪绳子一.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="剪绳子一.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="快排默写.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/快排默写.js" working-dir="$PROJECT_DIR$/排序算法">
+      <method v="2" />
+    </configuration>
+    <configuration name="快速排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/快速排序.js" working-dir="$PROJECT_DIR$/排序算法">
       <method v="2" />
     </configuration>
     <configuration name="序列化二叉树.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/序列化二叉树.js" working-dir="$PROJECT_DIR$/Offer">
@@ -59,15 +74,6 @@
       <method v="2" />
     </configuration>
     <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="剪绳子一.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="剪绳子一.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="快排默写.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/快排默写.js" working-dir="$PROJECT_DIR$/排序算法">
-      <method v="2" />
-    </configuration>
-    <configuration name="快速排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/快速排序.js" working-dir="$PROJECT_DIR$/排序算法">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/test.js" working-dir="$PROJECT_DIR$/排序算法">
@@ -98,6 +104,7 @@
       <workItem from="1626762371288" duration="15055000" />
       <workItem from="1627027734947" duration="1369000" />
       <workItem from="1627182992219" duration="1215000" />
+      <workItem from="1627202797584" duration="16000" />
     </task>
     <servers />
   </component>
