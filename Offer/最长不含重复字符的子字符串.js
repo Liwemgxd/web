@@ -20,7 +20,7 @@ var lengthOfLongestSubstring = function(s) {
 };
 
 let str = "abcabcbb";
-str = ' '
+
 // console.log(lengthOfLongestSubstring(str))
 //
 // let map = new Map();

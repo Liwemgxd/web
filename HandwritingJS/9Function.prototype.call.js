@@ -4,7 +4,16 @@
  * 然后用该对象调用一下自己这个属性函数，参数就用传进来的，利用一下拓展运算符  [...arguments].slice(1)
  */
 
-Function.prototype.call_ = function (context = window, ...args){
+/*
+const fn = function (arg1, arg2) {
+    // do something
+};
+fn.call(this, arg1, arg2); // 参数散列
+fn.apply(this, [arg1, arg2]) // 参数使用数组包裹
+*/
+
+
+Function.prototype.call_ = function (context = window, ...args){    //这里的...args是解构赋值： 1,2,3 = ...args 那么args=[1,2,3]
     if (typeof this !== "function"){
         throw new TypeError('type Error');
     }

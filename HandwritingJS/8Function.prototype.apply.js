@@ -1,4 +1,10 @@
-
+/*
+const fn = function (arg1, arg2) {
+    // do something
+};
+fn.call(this, arg1, arg2); // 参数散列
+fn.apply(this, [arg1, arg2]) // 参数使用数组包裹
+*/
 
 Function.prototype.apply_ = function (context = window, args){
     if (typeof this !== "function"){
