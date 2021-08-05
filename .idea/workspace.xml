@@ -24,10 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="61b6e80a-1c30-4d6f-be83-8db4d4ce241f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandwritingJS/10Function.prototype.bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandwritingJS/10Function.prototype.bind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandwritingJS/8Function.prototype.apply.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandwritingJS/8Function.prototype.apply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandwritingJS/9Function.prototype.call.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandwritingJS/9Function.prototype.call.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Offer/最长不含重复字符的子字符串.js" beforeDir="false" afterPath="$PROJECT_DIR$/Offer/最长不含重复字符的子字符串.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandwritingJS/1数组扁平化.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandwritingJS/1数组扁平化.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandwritingJS/7Array.prototype.reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandwritingJS/7Array.prototype.reduce.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +62,35 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.test2.js">
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration name="1数组扁平化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HandwritingJS/1数组扁平化.js" working-dir="$PROJECT_DIR$/HandwritingJS">
+      <method v="2" />
+    </configuration>
+    <configuration name="7Array.prototype.reduce.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HandwritingJS/7Array.prototype.reduce.js" working-dir="$PROJECT_DIR$/HandwritingJS">
+      <method v="2" />
+    </configuration>
     <configuration name="数组中的逆序对.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数组中的逆序对.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="二分法查找山峰数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/二分法查找山峰数组.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="数字拼乘法算式乘积最大.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/现场笔试/拼多多/数字拼乘法算式乘积最大.js" working-dir="$PROJECT_DIR$/现场笔试/拼多多">
+      <method v="2" />
+    </configuration>
+    <configuration name="剪绳子一.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/剪绳子一.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="正则表达式匹配.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/正则表达式匹配.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="调整数组顺序使奇数位于偶数前面.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/调整数组顺序使奇数位于偶数前面.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="最长不含重复字符的子字符串.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/最长不含重复字符的子字符串.js" working-dir="$PROJECT_DIR$/Offer">
       <method v="2" />
     </configuration>
     <configuration name="删除链表的节点.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/删除链表的节点.js" working-dir="$PROJECT_DIR$/Offer">
@@ -92,42 +117,19 @@
     <configuration name="滑动窗口的最大值.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/滑动窗口的最大值.js" working-dir="$PROJECT_DIR$/Offer">
       <method v="2" />
     </configuration>
-    <configuration name="二分法查找山峰数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/二分法查找山峰数组.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="数字拼乘法算式乘积最大.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/现场笔试/拼多多/数字拼乘法算式乘积最大.js" working-dir="$PROJECT_DIR$/现场笔试/拼多多">
-      <method v="2" />
-    </configuration>
-    <configuration name="剪绳子一.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/剪绳子一.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="正则表达式匹配.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/正则表达式匹配.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="调整数组顺序使奇数位于偶数前面.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/调整数组顺序使奇数位于偶数前面.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="最长不含重复字符的子字符串.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/最长不含重复字符的子字符串.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
     <configuration name="修改json数据.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS/修改json数据.js" working-dir="$PROJECT_DIR$/JS">
       <method v="2" />
     </configuration>
-    <configuration name="test2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/现场笔试/爱奇艺/test2.js" working-dir="$PROJECT_DIR$/现场笔试/爱奇艺">
-      <method v="2" />
-    </configuration>
-    <configuration name="test3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/现场笔试/爱奇艺/test3.js" working-dir="$PROJECT_DIR$/现场笔试/爱奇艺">
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HandwritingJS/test.js" working-dir="$PROJECT_DIR$/HandwritingJS">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.1数组扁平化.js" />
+        <item itemvalue="Node.js.7Array.prototype.reduce.js" />
         <item itemvalue="Node.js.数组中的逆序对.js" />
         <item itemvalue="Node.js.修改json数据.js" />
-        <item itemvalue="Node.js.test3.js" />
-        <item itemvalue="Node.js.test2.js" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +158,7 @@
       <workItem from="1627952875075" duration="4884000" />
       <workItem from="1628039156920" duration="6383000" />
       <workItem from="1628125107389" duration="3507000" />
+      <workItem from="1628134697654" duration="7286000" />
     </task>
     <servers />
   </component>
@@ -180,29 +183,29 @@
     </state>
     <state x="739" y="298" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1626954076021" />
     <state x="2659" y="307" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1627612419342" />
-    <state width="1898" height="347" key="GridCell.Tab.0.bottom" timestamp="1628045953286">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1898" height="213" key="GridCell.Tab.0.bottom" timestamp="1628169985828">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1898" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1627894134779" />
-    <state width="1898" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1628045953286" />
+    <state width="1898" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1628169985828" />
+    <state width="1898" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1628143146005" />
     <state width="1898" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1627806580301" />
-    <state width="1898" height="347" key="GridCell.Tab.0.center" timestamp="1628045953286">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1898" height="213" key="GridCell.Tab.0.center" timestamp="1628169985828">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1898" height="250" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1627894134779" />
-    <state width="1898" height="347" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1628045953286" />
+    <state width="1898" height="213" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1628169985828" />
+    <state width="1898" height="213" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1628143146005" />
     <state width="1898" height="184" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1627806580300" />
-    <state width="1898" height="347" key="GridCell.Tab.0.left" timestamp="1628045953286">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1898" height="213" key="GridCell.Tab.0.left" timestamp="1628169985828">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1898" height="250" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1627894134779" />
-    <state width="1898" height="347" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1628045953286" />
+    <state width="1898" height="213" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1628169985828" />
+    <state width="1898" height="213" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1628143146003" />
     <state width="1898" height="184" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1627806580300" />
-    <state width="1898" height="347" key="GridCell.Tab.0.right" timestamp="1628045953286">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1898" height="213" key="GridCell.Tab.0.right" timestamp="1628169985828">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1898" height="250" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1627894134779" />
-    <state width="1898" height="347" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1628045953286" />
+    <state width="1898" height="213" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1628169985828" />
+    <state width="1898" height="213" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1628143146005" />
     <state width="1898" height="184" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1627806580301" />
     <state width="1898" height="347" key="GridCell.Tab.1.bottom" timestamp="1628045953287">
       <screen x="1920" y="0" width="1920" height="1080" />

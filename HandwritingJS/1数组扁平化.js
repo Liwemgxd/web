@@ -33,3 +33,17 @@ const fn = arr => {
 fn(arr)
 console.log(res1)
 console.log(Array.isArray(res1))
+
+/**
+ * 利用reduce
+ */
+
+function flat(arr){
+    return arr.reduce((pre, cur)=> {
+        return pre.concat(Array.isArray(cur) ? flat(cur) : cur)
+    }, [])
+}
+
+console.log('利用reduce');
+console.log(flat(arr))
+
