@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        .wrap{
+            display:flex;
+            flex-direction:row;
+            margin-top:20px;
+        }
+        .center{
+            /*下面是默认值，不可以放大，可以缩小，但是用不着缩小，因为本来就用不完*/
+            flex: 0 1 auto;
+            width:800px;
+            text-align:center;
+            background:#ccc;
+        }
+        .left,.right{
+            /*flex-grow 属性用于设置或检索弹性盒的扩展比率。*/
+            flex: 1;
+            /*flex-grow: 1;*/
+            line-height: 30px;
+            background:red;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="left">left</div>
+    <div class="center">center</div>
+    <div class="right">right</div>
+</div>
+</body>
+</html>
