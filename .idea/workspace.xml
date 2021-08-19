@@ -24,19 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61b6e80a-1c30-4d6f-be83-8db4d4ce241f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/flex-圣杯布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/flex-圣杯布局.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/纯CSS实现三角箭头.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/纯CSS实现三角箭头.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/其它/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/其它/虾皮变量.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/拼多多/接竹竿.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/拼多多/接竹竿.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/拼多多/数字拼乘法算式乘积最大.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/拼多多/数字拼乘法算式乘积最大.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/拼多多/线段判定.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/拼多多/线段判定.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/爱奇艺/demo1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/爱奇艺/demo1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/爱奇艺/test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/爱奇艺/test1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/爱奇艺/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/爱奇艺/test2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/爱奇艺/test3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/爱奇艺/test3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/美团/奇怪的键盘.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/美团/奇怪的键盘.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/美团/序列问题.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/美团/序列问题.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现场笔试/美团/最小操作次数.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔试/美团/最小操作次数.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +61,7 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.闭包.js">
+  <component name="RunManager" selected="Node.js.Test.js">
     <configuration name="Test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS/Test.js" working-dir="$PROJECT_DIR$/JS">
       <method v="2" />
     </configuration>
@@ -148,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.闭包.js" />
         <item itemvalue="Node.js.Test.js" />
+        <item itemvalue="Node.js.闭包.js" />
         <item itemvalue="Node.js.创建链表.js" />
         <item itemvalue="Node.js.test.js (1)" />
         <item itemvalue="Node.js.test.js (1)" />
@@ -187,7 +175,7 @@
       <workItem from="1628566690154" duration="1373000" />
       <workItem from="1628606941894" duration="6557000" />
       <workItem from="1628759633074" duration="735000" />
-      <workItem from="1629097195039" duration="33187000" />
+      <workItem from="1629097195039" duration="36365000" />
     </task>
     <servers />
   </component>
@@ -212,29 +200,29 @@
     </state>
     <state x="739" y="298" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1626954076021" />
     <state x="2659" y="307" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1627612419342" />
-    <state width="1898" height="275" key="GridCell.Tab.0.bottom" timestamp="1629258160239">
+    <state width="1898" height="275" key="GridCell.Tab.0.bottom" timestamp="1629341881650">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1629114379899" />
-    <state width="1898" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629258160239" />
+    <state width="1898" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629341881650" />
     <state width="1898" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1627806580301" />
-    <state width="1898" height="275" key="GridCell.Tab.0.center" timestamp="1629258160238">
+    <state width="1898" height="275" key="GridCell.Tab.0.center" timestamp="1629341881650">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="240" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1629114379899" />
-    <state width="1898" height="275" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629258160238" />
+    <state width="1898" height="275" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629341881650" />
     <state width="1898" height="184" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1627806580300" />
-    <state width="1898" height="275" key="GridCell.Tab.0.left" timestamp="1629258160238">
+    <state width="1898" height="275" key="GridCell.Tab.0.left" timestamp="1629341881650">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="240" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1629114379899" />
-    <state width="1898" height="275" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629258160238" />
+    <state width="1898" height="275" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629341881650" />
     <state width="1898" height="184" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1627806580300" />
-    <state width="1898" height="275" key="GridCell.Tab.0.right" timestamp="1629258160238">
+    <state width="1898" height="275" key="GridCell.Tab.0.right" timestamp="1629341881650">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="240" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1629114379899" />
-    <state width="1898" height="275" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629258160238" />
+    <state width="1898" height="275" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629341881650" />
     <state width="1898" height="184" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1627806580301" />
     <state width="1898" height="347" key="GridCell.Tab.1.bottom" timestamp="1628649038827">
       <screen x="1920" y="0" width="1920" height="1080" />
