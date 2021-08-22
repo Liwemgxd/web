@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            width: 508px;
+            height: 107px;
+            margin: 40px auto;
+        }
+
+        .box1 ul {
+            list-style: none;
+        }
+
+        .box1 ul li {
+            width: 107px;
+            height: 107px;
+            float: left;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .box1 ul li::before {
+            /* before伪类默认是行内元素，转为块元素后才能设置宽度和高度 */
+            content: '';
+            display: block;
+            width: 107px;
+            height: 107px;
+            transition: transform 0.5s linear 0s;
+        }
+
+        .box1 ul li:nth-child(1)::before {
+            background-image: url(../img/a_1.png);
+        }
+
+        .box1 ul li:nth-child(2)::before {
+            background-image: url(../img/a_2.png);
+        }
+
+        .box1 ul li:nth-child(3)::before {
+            background-image: url(../img/a_3.png);
+        }
+
+        .box1 ul li:nth-child(4)::before {
+            background-image: url(../img/a_4.png);
+        }
+
+        .box1 ul li img {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            top: 50%;
+            left: 50%;
+            margin-top: -30px;
+            margin-left: -30px;
+            transition: transform 1s linear 0s;
+        }
+        /* 这里要注意，写成.box1 ul li::before:hover是错的 */
+        .box1 ul li:hover::before {
+            transform: rotate(360deg);
+        }
+        .box1 ul li:hover img{
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <ul>
+            <li><img src="../img/icon1.svg" alt=""></li>
+            <li><img src="../img/icon2.svg" alt=""></li>
+            <li><img src="../img/icon3.svg" alt=""></li>
+            <li><img src="../img/icon4.svg" alt=""></li>
+        </ul>
+    </div>
+</body>
+
+</html>

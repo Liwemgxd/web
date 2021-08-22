@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            margin: 100px;
+            background-color: orange;
+            animation: r 2s linear 0s infinite alternate;
+        }
+
+        @-webkit-keyframes r{
+            from{
+                transform: rotate(0);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            animation: movelr 2s linear 0s infinite alternate;
+        }
+
+        @-webkit-keyframes movelr{
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(1000px);
+            }
+        }
+
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin: 100px;
+            animation: changeToCircle 2s linear 0s infinite alternate;
+        }
+
+        @-webkit-keyframes changeToCircle{
+            from{
+                border-radius: 0;
+            }
+            to{
+                border-radius: 50%;
+            }
+        }
+
+        .box4{
+            width: 200px;
+            height: 200px;
+            animation: changeColor 3s linear 0s infinite;
+        }
+        @keyframes changeColor{
+            0%{
+                background-color: red;
+            }
+            20%{
+                background-color: green;
+            }
+            40%{
+                background-color: grey;
+            }
+            60%{
+                background-color: purple;
+            }
+            80%{
+                background-color: salmon;
+            }
+            100%{
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</body>
+</html>

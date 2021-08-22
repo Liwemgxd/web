@@ -86,3 +86,4 @@ console.log(obj.valueOf().toString())
 console.log(new Array(5).fill(0).map(() => new Array(5).fill(0)))
 console.log([,,,].length)
 console.log(typeof document)
+

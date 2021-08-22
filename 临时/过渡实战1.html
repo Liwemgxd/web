@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 ul li img {
+            width: 380px;
+            height: 520px;
+        }
+
+        .box1 {
+            width: 1200px;
+            overflow: hidden;
+            margin: 40px auto;
+
+        }
+
+        .box1 ul {
+            list-style: none;
+        }
+
+        .box1 ul li {
+            float: left;
+            width: 380px;
+            height: 520px;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .box1 ul li .info {
+            position: absolute;
+            width: 370px;
+            height: 40px;
+            padding-left: 10px;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, .5);
+            line-height: 40px;
+            color: white;
+            opacity: 0;
+            transition: opacity 0.5s linear 0s;
+        }
+
+        .box1 ul li:hover .info {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <ul>
+            <li>
+                <img src="../img/cave.jpg" alt="">
+                <div class="info">洞穴</div>
+            </li>
+            <li>
+                <img src="../img/desert.jpg" alt="">
+                <div class="info">沙漠</div>
+            </li>
+            <li>
+                <img src="../img/flower.jpg" alt="">
+                <div class="info">花朵</div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

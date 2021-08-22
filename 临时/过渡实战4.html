@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+            perspective: 50000px;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            perspective: 30000px;
+            position: relative;
+            /* box现在是P的舞台，是section的演员。要让box整体带着内部元素旋转
+            此时要设置变形类型，保留它内部的3D效果 */
+            transform-style: preserve-3d;
+            transition: all 3s linear 0s;
+        }
+
+        section:hover .box {
+            transform: rotateX(360deg) rotateY(360deg);
+        }
+
+        .box p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;
+        }
+        /* 注意以下的面都是先旋转再位移，方向都是Z轴 */
+        .box p:nth-child(1) {
+            background-color: rgba(240, 216, 239, 0.486);
+            /* 前面 */
+            transform: translateZ(100px);
+        }
+
+        .box p:nth-child(2) {
+            background-color: rgba(42, 128, 199, 0.486);
+            /* 顶面 */
+            transform: rotateX(90deg) translateZ(100px);
+        }
+
+        .box p:nth-child(3) {
+            background-color: rgba(56, 219, 83, 0.486);
+            /* 背面 */
+            transform: rotateX(180deg) translateZ(100px);
+        }
+
+        .box p:nth-child(4) {
+            background-color: rgba(216, 23, 71, 0.486);
+            /* 底面 */
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+
+        .box p:nth-child(5) {
+            background-color: rgba(243, 247, 25, 0.486);
+            /* 侧面 */
+            transform: rotateY(-90deg) translateZ(100px);
+        }
+
+        .box p:nth-child(6) {
+            background-color: rgba(82, 4, 82, 0.486);
+              /* 侧面 */
+              transform: rotateY(90deg) translateZ(100px);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+    </section>
+
+</body>
+
+</html>

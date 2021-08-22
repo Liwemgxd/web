@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lazyload</title>
+    <style>
+        .image-item {
+            display: block;
+            margin-bottom: 50px;
+            height: 200px;//一定记得设置图片高度
+        }
+    </style>
+</head>
+<body>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img0.baidu.com/it/u=1242053365,2901037121&fm=26&fmt=auto&gp=0.jpg"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img0.baidu.com/it/u=422785599,1834783114&fm=253&fmt=auto&app=120&f=GIF?w=539&h=300"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img2.baidu.com/it/u=1953342078,394884763&fm=253&fmt=auto&app=120&f=GIF?w=600&h=300"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img0.baidu.com/it/u=251614576,2693916083&fm=26&fmt=auto&gp=0.jpg"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img0.baidu.com/it/u=3844939064,2416681391&fm=26&fmt=auto&gp=0.jpg"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img0.baidu.com/it/u=3101694723,748884042&fm=26&fmt=auto&gp=0.jpg"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img2.baidu.com/it/u=3674958956,2361803779&fm=26&fmt=auto&gp=0.jpg"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img1.baidu.com/it/u=1485012388,2380514454&fm=26&fmt=auto&gp=0.jpg"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img0.baidu.com/it/u=505675710,4204423417&fm=26&fmt=auto&gp=0.jpg"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img1.baidu.com/it/u=1495574933,2684309850&fm=253&fmt=auto&app=120&f=JPEG?w=741&h=500"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img0.baidu.com/it/u=4050335520,3968729208&fm=253&fmt=auto&app=120&f=JPEG?w=727&h=500"/>
+<img src="javascript:;" class="image-item" lazyload="true"  data-original="https://img2.baidu.com/it/u=3265241902,4242218824&fm=253&fmt=auto&app=120&f=JPEG?w=710&h=500"/>
+<script>
+    // var viewHeight =document.documentElement.clientHeight//获取可视区高度
+    var viewHeight =document.body.clientHeight
+
+    function lazyload(){
+        //把这个放在函数里面，是因为属性会更新
+        var eles = document.querySelectorAll('img[data-original][lazyload]')
+        Array.prototype.forEach.call(eles,function(item,index){
+            var rect
+            if(item.dataset.original==="")
+                return
+            rect=item.getBoundingClientRect()// 用于获得页面中某个元素的左，上，右和下分别相对浏览器视窗的位置
+            if(rect.bottom>=0 && rect.top < viewHeight){
+                // console.log(1, document.documentElement.clientHeight)
+                // console.log(2, document.body.clientHeight)
+                console.log(3, rect.top, rect.bottom, rect.left, rect.right)
+                !function(){
+                    var img=new Image()
+                    img.src=item.dataset.original
+                    img.onload=function(){
+                        item.src=img.src
+                    }
+                    item.removeAttribute("data-original")//移除属性，下次不再遍历
+                    item.removeAttribute("lazyload")
+                }()
+            }
+        })
+    }
+    lazyload()//刚开始还没滚动屏幕时，要先触发一次函数，初始化首页的页面图片
+    document.addEventListener("scroll", lazyload)
+
+</script>
+</body>
+</html>
