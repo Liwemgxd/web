@@ -74,30 +74,6 @@
     <configuration name="最小操作次数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔试/美团/最小操作次数.js" working-dir="$PROJECT_DIR$/笔试/美团">
       <method v="2" />
     </configuration>
-    <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="二叉树中和为某一值的路径.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/二叉树中和为某一值的路径.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="创建链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/经典题/链表/创建链表.js" working-dir="$PROJECT_DIR$/经典题/链表">
-      <method v="2" />
-    </configuration>
-    <configuration name="剪绳子一.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="剪绳子一.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="快速排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/快速排序.js" working-dir="$PROJECT_DIR$/排序算法">
-      <method v="2" />
-    </configuration>
-    <configuration name="闭包.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS/闭包.js" working-dir="$PROJECT_DIR$/JS">
-      <method v="2" />
-    </configuration>
-    <configuration name="序列化二叉树.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/序列化二叉树.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
-    <configuration name="滑动窗口的最大值.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/滑动窗口的最大值.js" working-dir="$PROJECT_DIR$/Offer">
-      <method v="2" />
-    </configuration>
     <configuration name="把数字翻译成字符串.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/把数字翻译成字符串.js" working-dir="$PROJECT_DIR$/Offer">
       <method v="2" />
     </configuration>
@@ -128,10 +104,34 @@
     <configuration name="删除链表的节点.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/删除链表的节点.js" working-dir="$PROJECT_DIR$/Offer">
       <method v="2" />
     </configuration>
+    <configuration name="数值的整数次方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/数值的整数次方.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
     <configuration name="奇怪的键盘.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/现场笔试/美团/奇怪的键盘.js" working-dir="$PROJECT_DIR$/现场笔试/美团">
       <method v="2" />
     </configuration>
     <configuration name="第一个只出现一次的字符.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/第一个只出现一次的字符.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="二叉树中和为某一值的路径.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/二叉树中和为某一值的路径.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="创建链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/经典题/链表/创建链表.js" working-dir="$PROJECT_DIR$/经典题/链表">
+      <method v="2" />
+    </configuration>
+    <configuration name="剪绳子一.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="剪绳子一.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="快速排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序算法/快速排序.js" working-dir="$PROJECT_DIR$/排序算法">
+      <method v="2" />
+    </configuration>
+    <configuration name="闭包.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS/闭包.js" working-dir="$PROJECT_DIR$/JS">
+      <method v="2" />
+    </configuration>
+    <configuration name="序列化二叉树.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/序列化二叉树.js" working-dir="$PROJECT_DIR$/Offer">
+      <method v="2" />
+    </configuration>
+    <configuration name="滑动窗口的最大值.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Offer/滑动窗口的最大值.js" working-dir="$PROJECT_DIR$/Offer">
       <method v="2" />
     </configuration>
     <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/面试/test.js" working-dir="$PROJECT_DIR$/面试">

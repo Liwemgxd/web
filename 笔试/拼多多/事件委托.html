@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<ul id="list">
+    <li>
+        <span>1</span>
+        <button>delete</button>
+    </li>
+    <li>
+        <span>2</span>
+        <button>delete</button>
+    </li>
+    <li>
+        <span>3</span>
+        <button>delete</button>
+    </li>
+    <li>
+        <span>4</span>
+        <button>delete</button>
+    </li>
+</ul>
+<script>
+    let list = document.getElementById('list');
+    list.addEventListener('click', function (e){
+        let target = e.target;
+        target = target.parentNode;
+        list.removeChild(target)
+    }, true)
+</script>
+</body>
+</html>
