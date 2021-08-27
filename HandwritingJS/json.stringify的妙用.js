@@ -48,6 +48,9 @@ console.log(JSON.stringify(arr))
 console.log(arr.toString())
 
 
+console.log(Object.prototype)
+console.log(arr.__proto__.__proto__.__proto__)
 
-
+let obj = new Object();
+console.log(Object.keys(obj))
 

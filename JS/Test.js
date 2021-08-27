@@ -87,3 +87,20 @@ console.log(new Array(5).fill(0).map(() => new Array(5).fill(0)))
 console.log([,,,].length)
 console.log(typeof document)
 
+let a1 = Symbol('123')
+// a1 = [1,2,3];
+console.log(a1)
+let a2 = Symbol.for('123');
+let a3 = Symbol.for('123');
+a2 = '123'
+a3 = '456'
+console.log(a1 === a2)
+console.log(a2 === a3)
+
+function args(a,b,c){
+    let arr = Array.prototype.slice.call(arguments);
+    console.log(arr)
+}
+args(1,2,3)
+
+

@@ -84,3 +84,6 @@ Array.prototype.reduce2 = function (callback, initialValue){
 let arr = [1,2,null,3,4];
 let res = arr.reduce2((pre, cur) => {return pre + cur})
 console.log(res)
+
+
+console.log('2021/2/18'.toLocaleString());

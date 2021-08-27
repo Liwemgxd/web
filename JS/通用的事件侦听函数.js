@@ -10,7 +10,7 @@ const EventUtils = {
         }
     },
 
-    removEvent: function (element, type, handler){
+    removeEvent: function (element, type, handler){
         if(element.removeEventListener){
             element.removeEventListener(type, handler);
         }else if (element.detachEvent){
