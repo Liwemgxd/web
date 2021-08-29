@@ -1,6 +1,7 @@
 async function async1(){
     console.log('1 > async1 start');
     await async2();
+    //await 的后面，都可以看做是callback里的内容，下面这一行会自动封装为一个异步回调
     console.log('2 > async1 end')
 }
 

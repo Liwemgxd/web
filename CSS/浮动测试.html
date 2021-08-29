@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .topDiv {
+            width: 500px;
+            border: 2px solid black;
+            overflow: auto;
+        }
+        .floatDiv {
+            width: 100px;
+            height: 120px;
+            border: 2px dotted red;
+            color: red;
+            margin: 4px;
+            float: left;
+        }
+        .bottomDiv {
+            width: 500px;
+            height: 100px;
+            margin: 5px 0;
+            border: 2px dotted black;
+            /*clear: both;*/
+        }
+        .textDiv {
+            color: blue;
+            border: 2px solid blue;
+            /*clear: both;*/
+        }
+        /*.blankDiv{*/
+        /*    clear: both;*/
+        /*}*/
+        /*.clearfix::after{*/
+        /*    content: '';*/
+        /*    display: block;*/
+        /*    !*height: 0;*!*/
+        /*    clear: both;*/
+        /*}*/
+    </style>
+    <script></script>
+</head>
+<body>
+<div class="topDiv clearfix">
+    <div class="floatDiv">float left</div>
+    <div class="textDiv">
+        llllllllllllllllllllllllllllllllllllllllllllllllllllllll
+        llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+        lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+        llllllllllllllllllllllllllllllllllllllllllllllllllllll
+    </div>
+    <div class="blankDiv"></div>
+</div>
+<div class="bottomDiv">
+    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+</div>
+</body>
+</html>
