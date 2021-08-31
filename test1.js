@@ -143,21 +143,27 @@
 // let arr = [1, 0, -1, 10, 5, 7, -6, 2];
 // console.log(maxSumOfSubArr(arr));
 
-(function f(){
-    let name = 'top';
-    function say(){
-        console.log('name is: ', this.name);
-    }
+// var a = 'out';
+// function fn(){
+//     var a = 'inner';
+//     return function (){
+//         console.log(a);
+//     }
+// }
+// fn()()
 
-    const obj = {
-        name : 'outer',
-        say : say,
-        inner:{
-            name: 'inner',
-            say : say,
-        }
-    };
-    say();
-    obj.inner.say();
-    setTimeout(obj.say, 3000);
-)();
+//
+// var a = 1;
+// function foo(a, b) {
+//     console.log(a);
+//     a = 2;
+//     arguments[0] = 3;
+//     var a;
+//     console.log(a, this.a, b);
+// }
+// foo(a);
+
+console.log(true + false)
+console.log(true + true)
+console.log(true + 0)
+
